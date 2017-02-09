@@ -77,6 +77,8 @@
     <Compile Include="Assets\Completed\Scripts\Player.cs" />
     <Compile Include="Assets\Completed\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Completed\Scripts\Wall.cs" />
+    <Compile Include="Assets\Scripts\BoardManager.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\TutorialInfo.cs" />
   </ItemGroup>
   <ItemGroup>
