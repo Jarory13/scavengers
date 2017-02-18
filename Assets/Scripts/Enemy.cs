@@ -34,12 +34,12 @@ public class Enemy : MovingObject {
         int xdir = 0;
         int ydir = 0;
 
-        if (Mathf.Abs(target.position.x - transform.position.x) < float.Epsilon) 
+        if (Mathf.Abs(target.position.x - this.transform.position.x) < float.Epsilon) 
         {
-            ydir = target.position.y > transform.position.y ? 1 : -1;
+            ydir = target.position.y > this.transform.position.y ? 1 : -1;
         }
         else {
-            xdir = target.position.x > transform.position.x ? 1 : -1;
+            xdir = target.position.x > this.transform.position.x ? 1 : -1;
         }
 
         AttemptMove<Player>(xdir, ydir);
